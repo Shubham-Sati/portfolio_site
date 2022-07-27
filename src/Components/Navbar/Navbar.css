@@ -1,0 +1,48 @@
+
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar-left-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.navbar-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.navbar-right-list{
+    flex: 10;
+}
+
+.navbar-right-list > ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+
+.navbar-right-list > ul > li:hover{
+    cursor: pointer;
+    color: var( --orange );
+}
+
+.navbar-button{
+    flex: 2;
+}
+
+
+
