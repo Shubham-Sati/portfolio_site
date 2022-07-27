@@ -21,7 +21,7 @@ function Navbar() {
                 </ul>
             </div>
             <button className='button navbar-button'>
-                Contact Me
+                Contact 
             </button>
         </div>
     </div>
