@@ -14,7 +14,7 @@ function Navbar() {
             <div className='navbar-right-list'>
                 <ul style={{listStyleType: 'none'}}>
                     <li>Home</li>
-                    <li>Services</li>
+                    <li>Projects</li>
                     <li>Experience</li>
                     <li>Portfolio</li>
                     <li>Testimonials</li>
