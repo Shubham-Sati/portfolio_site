@@ -46,10 +46,10 @@ function Intro() {
           <img src={glassesimoji} alt='' />
 
           <div style={{top:'-4%',left:'68%'}}>
-              <FloatingDiv image={Crown} text1='Web' text2='Developer'/>
+              <FloatingDiv image={Crown} text1='Front End' text2='Web Developer'/>
           </div>
           <div style={{top:'18rem',left:'0rem'}}>
-              <FloatingDiv image={thumbup} text1='Best Design' text2='Award'/>
+              <FloatingDiv image={thumbup} text1='React' text2='Js'/>
           </div>
 
           {/* blur divs */}
