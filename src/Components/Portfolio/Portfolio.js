@@ -14,7 +14,7 @@ function Portfolio() {
         {/* Heading */}
         <span>Recent Projects</span>
         <span>Portfolio</span>
-        <p> Slide Right ---> </p>
+        <p> Slide Right → click to see  </p>
         
         {/* Slider */}
         <Swiper
