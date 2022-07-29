@@ -1,0 +1,63 @@
+
+.skills{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 9rem;
+    margin-bottom: 8rem;
+}
+
+.skills-left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.skills-left > :nth-child(1){
+    color: var(--black);
+    left: -10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.skills-left > :nth-child(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.skills-left > :nth-child(3){
+    color: var(--gray);
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.resume-button{
+    width: 10rem;
+    height: 2rem;
+    margin-top: 4rem;
+    font-size: 18px;
+}
+
+.skills-right{
+    position: relative;
+}
+.skills-right > *{
+    position: absolute;
+}
+
+.skills-left-blur{
+    top: 13rem;
+    left: -18rem;
+}
+
+.skills-right-blur{
+    left: 13rem;
+    top: 8rem;
+}
+
+
+
+
+
