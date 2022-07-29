@@ -1,6 +1,96 @@
 
 .works{
-    
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
 }
+
+.works-right{
+    position: relative;
+}
+
+.works-right-mainCircle{
+    position: relative;
+    background-color: white;
+    left: 9rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+}
+
+.works-right-mainCircle > *{
+    position: absolute;
+}
+
+ /* upwork icon  */
+.works-right-mainCircle > :nth-child(1){
+    top: -3rem;
+    left: 6rem;
+}
+
+/* Fiverr icon */
+.works-right-mainCircle > :nth-child(2){
+    top: 5rem;
+    left: -3rem;
+}
+
+/* Amazon icon */
+.works-right-mainCircle > :nth-child(3){
+    top: 5rem;
+    left: 6rem;
+}
+
+/* Shopify icon */
+.works-right-mainCircle > :nth-child(4){
+    top: 5rem;
+    left: 15rem;
+}
+
+/* Facebook icon */
+.works-right-mainCircle > :nth-child(5){
+    top: 13rem;
+    left: 6rem;
+}
+
+.works-right-secCircle{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    position: absolute;
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: var(--smboxShadow);
+}
+
+.works-right-secCircle > img{
+    transform: scale(0.6);
+}
+
+.works-right-backCircle{
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.blueCircle{
+    background: #194988;
+    left: 9rem;
+    top: -3rem;
+}
+
+.yellowCircle{
+    background: #F5C32C;
+    left: 9rem;
+    top: 8rem;
+}
+
 
 
