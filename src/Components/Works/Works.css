@@ -71,7 +71,20 @@
 }
 
 .works-right-secCircle > img{
-    transform: scale(0.6);
+    transform: scale(0.7);
+    object-fit: contain;
+}
+.pepcoding{
+    
+}
+
+.ensino{
+    transform: scale(0.5)!important;
+}
+
+.graphic{
+    transform: scale(0.23)!important;
+    border-radius: 100%;
 }
 
 .works-right-backCircle{
@@ -92,7 +105,7 @@
     background: #F5C32C;
     left: 9rem;
     top: 8rem;
-}
+} 
 
 @media screen and (max-width: 480px){
     .works{

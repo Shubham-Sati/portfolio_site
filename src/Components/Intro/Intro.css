@@ -36,10 +36,6 @@
     color: var(--gray);
     margin-top: 10px;
 }
-.intro-left-button{
-    width: 6rem;
-    height: 2rem;
-}
 
 .intro-left-icons{
     margin-top: 3rem;
@@ -55,6 +51,12 @@
     cursor: pointer;
 }
 
+.leetcode{
+    width: 5rem !important;
+    height: 5rem !important;
+    margin-left: -1rem !important;
+    margin-bottom: -1rem !important;
+}
 
 
 .intro-right{
@@ -100,7 +102,7 @@
     background: #edd0ff;
     z-index: -9;
     top: -18%;
-    left: 56%;
+    left: 56%; 
     filter: blur(68.4px);
 }
 

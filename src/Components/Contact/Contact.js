@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import {useRef} from 'react';
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
-
+ 
 function Contact() {
     const form = useRef();
     const [done , setDone] =  useState( false );
@@ -32,7 +32,7 @@ function Contact() {
       };
 
   return (
-    <div className='contact-form'>
+    <div className='contact-form' id='Contact'>
         {/* Left Side */}
         <div className='w-left'>
             <div className='awesome'>
