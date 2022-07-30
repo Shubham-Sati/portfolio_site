@@ -1,6 +1,5 @@
 import React from 'react';
 import './Works.css';
-import Upwork from "../../img/Upwork.png";
 import Pepcoding from "../../img/pepcoding.png";
 import Cognizant from "../../img/cognizant.jpeg";
 import Ensino from "../../img/ensino.png";
@@ -62,9 +61,9 @@ function Works() {
             </div>
 
             {/* Facebook icon */}
-            <div className='works-right-secCircle'>
-              <img  src={Upwork} alt='' />
-            </div>
+            {/* <div className='works-right-secCircle'>
+              <img  src={''} alt='' />
+            </div> */}
             
             {/* Background blue and yellow Circle */}
             <div className='works-right-backCircle blueCircle'></div>

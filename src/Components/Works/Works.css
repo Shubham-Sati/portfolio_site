@@ -27,31 +27,27 @@
     position: absolute;
 }
 
- /* upwork icon  */
 .works-right-mainCircle > :nth-child(1){
     top: -3rem;
     left: 6rem;
 }
 
-/* Fiverr icon */
 .works-right-mainCircle > :nth-child(2){
     top: 5rem;
     left: -3rem;
 }
 
-/* Amazon icon */
 .works-right-mainCircle > :nth-child(3){
     top: 5rem;
     left: 6rem;
 }
 
-/* Shopify icon */
 .works-right-mainCircle > :nth-child(4){
     top: 5rem;
     left: 15rem;
 }
 
-/* Facebook icon */
+
 .works-right-mainCircle > :nth-child(5){
     top: 13rem;
     left: 6rem;
@@ -92,13 +88,13 @@
     width: 13rem;
     height: 13rem;
     border-radius: 100%;
-    z-index: -4;
+    z-index: -1;
 }
 
 .blueCircle{
     background: #194988;
-    left: 9rem;
-    top: -3rem;
+    left: 9rem !important;
+    top: -3rem !important;
 }
 
 .yellowCircle{
