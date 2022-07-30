@@ -11,7 +11,6 @@ import { useContext } from 'react';
 
  
 function Skills() {
-  const transition = { duration : 2 , type : 'spring' };
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
@@ -45,7 +44,7 @@ function Skills() {
               <Card 
                   emoji = {HeartEmoji}
                   heading = {'Certificates'}
-                  detail = {'Udemy Web Developer , NCC "C" , Ensino Web Development '}
+                  detail = {'Udemy Web Developer , Ensino Web Development , NCC "C" '}
               />
             </div>
 

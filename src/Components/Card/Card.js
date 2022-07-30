@@ -8,9 +8,6 @@ function Card( {emoji , heading , detail} ) {
         <img src={emoji} alt='' />
         <span>{heading}</span>
         <span>{detail}</span>
-        <button className='card-button'>
-            Learn More
-        </button>
     </div>
   )
 }

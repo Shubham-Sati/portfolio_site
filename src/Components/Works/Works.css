@@ -27,31 +27,27 @@
     position: absolute;
 }
 
- /* upwork icon  */
 .works-right-mainCircle > :nth-child(1){
     top: -3rem;
     left: 6rem;
 }
 
-/* Fiverr icon */
 .works-right-mainCircle > :nth-child(2){
     top: 5rem;
     left: -3rem;
 }
 
-/* Amazon icon */
 .works-right-mainCircle > :nth-child(3){
     top: 5rem;
     left: 6rem;
 }
 
-/* Shopify icon */
 .works-right-mainCircle > :nth-child(4){
     top: 5rem;
     left: 15rem;
 }
 
-/* Facebook icon */
+
 .works-right-mainCircle > :nth-child(5){
     top: 13rem;
     left: 6rem;
@@ -71,7 +67,20 @@
 }
 
 .works-right-secCircle > img{
-    transform: scale(0.6);
+    transform: scale(0.7);
+    object-fit: contain;
+}
+.pepcoding{
+    
+}
+
+.ensino{
+    transform: scale(0.5)!important;
+}
+
+.graphic{
+    transform: scale(0.23)!important;
+    border-radius: 100%;
 }
 
 .works-right-backCircle{
@@ -79,20 +88,20 @@
     width: 13rem;
     height: 13rem;
     border-radius: 100%;
-    z-index: -4;
+    z-index: -1;
 }
 
 .blueCircle{
     background: #194988;
-    left: 9rem;
-    top: -3rem;
+    left: 9rem !important;
+    top: -3rem !important;
 }
 
 .yellowCircle{
     background: #F5C32C;
     left: 9rem;
     top: 8rem;
-}
+} 
 
 @media screen and (max-width: 480px){
     .works{

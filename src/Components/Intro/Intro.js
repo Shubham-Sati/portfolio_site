@@ -2,8 +2,7 @@ import React from 'react'
 import './Intro.css';
 import Github from '../../img/github.png';
 import LinkedIn from '../../img/linkedin.png';
-import Instagram from '../../img/instagram.png';
-import Leetcode from '../../img/leetcode.jpeg';
+import Leetcode from '../../img/leetcode.png';
 import Vector1 from '../../img/Vector1.png';
 import Vector2 from '../../img/Vector2.png';
 import boy from '../../img/boy.png';
@@ -27,18 +26,15 @@ function Intro() {
                 <span>Shubham Sati </span>
                 <span>Frontend Developer with high level of experience in web designing and development, productive and Quality work.</span>
             </div>
-            <button className='button intro-left-button'>
-                Hire me
-            </button>
             <div className='intro-left-icons'>
-              <a href='https://github.com/Shubham-Sati/portfolio_site'>
+              <a href='https://github.com/Shubham-Sati' target="_blank">
                   <img src={Github} alt='' />
               </a>
-              <a href='https://www.linkedin.com/in/shubham-sati19/'>
+              <a href='https://www.linkedin.com/in/shubham-sati19/' target="_blank">
                   <img src={LinkedIn} alt='' />
               </a>
-              <a href=''>
-                  <img src={Instagram} alt='' />
+              <a href='https://leetcode.com/Shubham_Sati/' target="_blank">
+                  <img className='leetcode' src={Leetcode} alt='' />
               </a>
             </div>
         </div>

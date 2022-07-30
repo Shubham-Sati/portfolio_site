@@ -1,10 +1,9 @@
 import React from 'react';
 import './Works.css';
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png"; 
+import Pepcoding from "../../img/pepcoding.png";
+import Cognizant from "../../img/cognizant.jpeg";
+import Ensino from "../../img/ensino.png";
+import Graphic from "../../img/graphic.webp"; 
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 
@@ -18,8 +17,8 @@ function Works() {
     <div className='works'>
         {/* Left side */}
         <div className='skills-left'>
-            <span style={{ color : darkMode ? 'white' : '' }}>Works with All these</span>
-            <span>Brands & Clients</span>
+            <span style={{ color : darkMode ? 'white' : '' }}>Work and Learn under </span>
+            <span>Companies ...</span>
             <spane>
                 I started off my career with Cognizant and right from day one 
                 <br />
@@ -30,50 +29,48 @@ function Works() {
                 Being Cognizant, I am working with Centrica ( Bord Gas Energy ).
                 <br />
                 <br />
-                The only reason I am looking for a change in my job is for a compensation 
+                {/* The only reason I am looking for a change in my job is for a compensation  */}
                 <br />
-                per market standards.
+                {/* per market standards. */}
             </spane>
-            <button className='button resume-button'>
-              Hire me
-            </button>
             <div className='blur skills-left-blur' style={{background: "#ABF1FF94"}}></div>
         </div>
 
         {/* Right side */}
         <div className='works-right'>
           <div className='works-right-mainCircle'>
-            {/* upwork icon */}
+
+            {/* Graphic icon */}
             <div className='works-right-secCircle'>
-              <img src={Upwork} alt='' />
+              <img className='graphic' src={Graphic} alt='' />
             </div>
 
-            {/* Fiverr icon */}
+            {/* Pepcoding icon */}
             <div className='works-right-secCircle'>
-              <img src={Fiverr} alt='' />
+              <img className='pepcoding' src={Pepcoding} alt='' />
             </div>
 
-            {/* Amazon icon */}
+            {/* cognizant icon */}
             <div className='works-right-secCircle'>
-              <img src={Amazon} alt='' />
+              <img className='cognizant' src={Cognizant} alt='' />
             </div>
 
-            {/* Shopify icon */}
+            {/* Ensino icon */}
             <div className='works-right-secCircle'>
-              <img src={Shopify} alt='' />
+              <img className='ensino' src={Ensino} alt='' />
             </div>
 
             {/* Facebook icon */}
-            <div className='works-right-secCircle'>
-              <img src={Facebook} alt='' />
-            </div>
+            {/* <div className='works-right-secCircle'>
+              <img  src={''} alt='' />
+            </div> */}
             
             {/* Background blue and yellow Circle */}
             <div className='works-right-backCircle blueCircle'></div>
             <div className='works-right-backCircle yellowCircle'></div>
 
           </div>
-        </div>
+        </div> 
     </div>
   )
 }
