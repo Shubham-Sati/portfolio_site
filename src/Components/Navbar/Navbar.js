@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css';
+import Toggle from '../Toggle/Toggle';
+import {Link} from 'react-scroll';
 
 function Navbar() {
   return (
@@ -8,16 +10,30 @@ function Navbar() {
             <div className='navbar-left-name'>
                 Shubham Sati
             </div>
-            <span>toggle</span>
+            <Toggle />
         </div>
         <div className='navbar-right'>
             <div className='navbar-right-list'>
                 <ul style={{listStyleType: 'none'}}>
-                    <li>Home</li>
-                    <li>Projects</li>
-                    <li>Experience</li>
-                    <li>Portfolio</li>
-                    <li>Testimonials</li>
+                    <Link spy={true} to='Navbar' smooth={true} activeClass='activeClass'>
+                        <li>Home</li>
+                    </Link>
+
+                    <Link spy={true} to='Skills' smooth={true} >
+                        <li>Skills</li>
+                    </Link>
+
+                    <Link spy={true} to='Experience' smooth={true} >
+                        <li>Experience</li>
+                    </Link>
+
+                    <Link spy={true} to='Portfolio' smooth={true} >
+                        <li>Portfolio</li>
+                    </Link>
+
+                    <Link spy={true} to='Testimonials' smooth={true} >
+                        <li>Testimonials</li>
+                    </Link> 
                 </ul>
             </div>
             <button className='button navbar-button'>

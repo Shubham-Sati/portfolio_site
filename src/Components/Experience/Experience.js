@@ -3,14 +3,15 @@ import React from 'react';
 import './Experience.css';
 
 function Experience() {
+
   return (
-    <div className='experience'>
+    <div className='experience' id='Experience'>
         {/* first Acchievement */}
         <div className='achievement'>
-            <div className='circle'>1</div>
+            <div className='circle'>1</div> 
             <span>Years</span>
             <span>Experience</span>
-        </div>
+        </div> 
         {/* second Acchievement */}
         <div className='achievement'>
             <div className='circle'>5+</div>
@@ -24,7 +25,7 @@ function Experience() {
             <span>Work</span>
         </div>
     </div>
-  )
+  ) 
 }
 
 export default Experience

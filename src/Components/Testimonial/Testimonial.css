@@ -9,7 +9,7 @@
     margin-top: 7rem;
     gap: 2rem;
     position: relative;
-}
+} 
 
 .testimonial-heading{
     align-items: start;
@@ -74,4 +74,17 @@
 .testimonial .swiper-pagination-bullet-active{
     background: var(--orange);
 }
+
+@media screen and (max-width: 480px){
+
+    .testimonial{
+        padding: 0;
+    }
+
+    .testimonial-swiper > img{
+        width: 70px;
+        height: 70px;
+    }
+}
+
 
