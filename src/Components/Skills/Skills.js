@@ -6,14 +6,21 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Resume from './resume8b.pdf';
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
 
+ 
 function Skills() {
+  const transition = { duration : 2 , type : 'spring' };
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
-    <div className='skills'>
+    <div className='skills' id='Skills'>
         {/* Left side */}
 
         <div className='skills-left'>
-            <span>My Awesome</span>
+            <span style={{ color : darkMode ? 'white' : '' }} >My Awesome</span>
             <span>Skills & Achievements</span>
             <spane>
                 These are some Skills I gained in my Academic Year.
@@ -29,7 +36,7 @@ function Skills() {
         </div>
 
 
-
+  
         {/* right side */}
         <div className='skills-right'>
 

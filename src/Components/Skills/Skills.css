@@ -7,7 +7,7 @@
     margin-bottom: 8rem;
 }
 
-.skills-left{
+.skills-left{ 
     display: flex;
     flex-direction: column;
     position: relative;
@@ -58,6 +58,26 @@
 }
 
 
+@media screen and (max-width: 480px){
+    .skills{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 66rem;
+        padding: 0; 
+        margin-bottom: 10rem;
+    }
 
+    .skills-right{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+    }
+
+    .skills-right > *{
+        position: static;
+    }
+
+}
 
 

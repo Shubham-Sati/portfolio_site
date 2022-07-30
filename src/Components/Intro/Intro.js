@@ -11,16 +11,19 @@ import thumbup from '../../img/thumbup.png';
 import Crown from '../../img/crown.png';
 import glassesimoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
-
-
-
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
 
 function Intro() {
+
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className='intro'>
         <div className='intro-left'>
             <div className='intro-left-name'>
-                <span>Hy! I Am </span>
+                <span style={{ color : darkMode ? 'white' : '' }} >Hy! I Am </span>
                 <span>Shubham Sati </span>
                 <span>Frontend Developer with high level of experience in web designing and development, productive and Quality work.</span>
             </div>
@@ -45,10 +48,11 @@ function Intro() {
           <img src={boy} alt='' />
           <img src={glassesimoji} alt='' />
 
-          <div style={{top:'-4%',left:'68%'}}>
+          <div className='floating-div' style={{top:'-4%',left:'68%'}}>
               <FloatingDiv image={Crown} text1='Front End' text2='Web Developer'/>
           </div>
-          <div style={{top:'18rem',left:'0rem'}}>
+
+          <div className='floating-div' style={{top:'18rem',left:'0rem'}}>
               <FloatingDiv image={thumbup} text1='React' text2='Js'/>
           </div>
 

@@ -9,7 +9,7 @@ import { Pagination } from "swiper";
 import 'swiper/css/pagination';
 import 'swiper/css'; 
 
-function Testimonial() {
+function Testimonial() { 
 
   const clients =[
     {
@@ -38,7 +38,7 @@ function Testimonial() {
 
 
   return (
-    <div className='testimonial'>
+    <div className='testimonial' id='Testimonials'>
         <div className='testimonial-heading'>
             <span>Clients always get </span>
             <span>Exceptional Work </span>
@@ -52,13 +52,12 @@ function Testimonial() {
           modules={[Pagination]}
           slidesPerView = {1}
           pagination={{clickable: true}}
-
         >
             { clients.map((client , index) => {
                 return (
                   <SwiperSlide key={index}>
                     <div className='testimonial-swiper'>
-                      <img src={client.img} alt='' />
+                      <img  src={client.img} alt='' />
                       <span>{client.review}</span>
                     </div>
                   </SwiperSlide>

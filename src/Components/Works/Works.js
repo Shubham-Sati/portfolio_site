@@ -4,14 +4,21 @@ import Upwork from "../../img/Upwork.png";
 import Fiverr from "../../img/fiverr.png";
 import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Facebook from "../../img/Facebook.png"; 
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
 
-function Works() {
+
+
+function Works() { 
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className='works'>
         {/* Left side */}
         <div className='skills-left'>
-            <span>Works with All these</span>
+            <span style={{ color : darkMode ? 'white' : '' }}>Works with All these</span>
             <span>Brands & Clients</span>
             <spane>
                 I started off my career with Cognizant and right from day one 
@@ -67,9 +74,6 @@ function Works() {
 
           </div>
         </div>
-
-
-
     </div>
   )
 }
